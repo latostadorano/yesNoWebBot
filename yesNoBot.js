@@ -14,7 +14,7 @@ function setup() {
   var input = select('#question');
   input.changed(ask);
   var button = select('#submit');
-  //button.mousePressed(ask);                  If we activate this line we'll get a double answear and we don't want that
+  //button.mousePressed(ask);                  If we activate this line we'll get a double answer and we don't want that
 }
 
 function ask() {
