@@ -2,33 +2,49 @@
 <html>
 
 <head>
-    <title>Latostadorano</title>
-    <meta charset="UTF-8">
-    <script src="addons/p5.js" type="text/javascript"></script>
-    <script src="addons/p5.dom.js" type="text/javascript"></script>
-    <script src="addons/p5.sound.js" type="text/javascript"></script>
-        <link rel = "shortcut icon" href ="http://latostadorano.com/img/vv_blink_16.png" type = "image/x-icon" / >
+    <title>YesNoBot</title>
+    <link rel="shortcut icon" href="assets/vv_favicon_bco.png" type="image/x-icon"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.10.2/addons/p5.sound.min.js"></script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-            <link href = "../css/bootstrap.css" rel = "stylesheet" >
-            <link href = "../css/stickyfooterstyles.css" rel = "stylesheet" >
-            <link href = "../css/styles.css" rel = "stylesheet" >
-            <link href = "../css/bootstrap-responsive.css" rel = "stylesheet" >
-
-            <script src="yesNoBot.js" type="text/javascript"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
 </head>
 
 <body>
-    <div style="padding-left: 20px;">
-        <a href="http://latostadorano.com" style="color:black">
-            <h1 style="text-decoration: none">LATOSTADORANO!</h1>
-        </a>
+    <script src="yesNoBot.js"></script>
 
-        <p>
-            Ask the bot: <input id="question" placeholder="Enter a question" />
-            <button id="submit">Yes or no</button>
-        </p>
+    <div></div><br>
+    <div class="container">
+        <div class="row">
+            <div class=" col col-lg-7 justify-content-center">
+                <h3>Ask the bot: </h3>
+                
+                <div class="input-group mb-3">
+                    <input id="question" type="text" class="form-control" placeholder="Enter a question" aria-label="Recipient's username" aria-describedby="button-addon2">
+                    <div class="input-group-append">
+                      <button class="btn btn-dark" type="button" id="submit">Yes or no</button>
+                    </div>
+                </div>
+
+                <img class="img-fluid" id="foto" src="http://www.epiclylaterd.com/lartigue_hydroglider.jpg">
+                <br><br>
+                <h3 id="h2"></h3>
+
+                <iframe class="mx-auto d-none d-block align-items-end" style="width: 420px; height: 25px; overflow: hidden ;"  scrolling="no" frameborder="0" src="https://editor.p5js.org/latostadorano@gmail.com/embed/cSDqkUIzk"></iframe>
+            
+            </div>
+        </div>
+
     </div>
+
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 </body>
 
 </html>
